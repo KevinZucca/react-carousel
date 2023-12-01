@@ -34,6 +34,10 @@ function App() {
     }
   };
 
+  function seeImg(index) {
+    setIndex(index);
+  }
+
   useEffect(() => {
     window.addEventListener("keydown", handleKeyDown);
     return () => {
@@ -53,6 +57,7 @@ function App() {
           handlePrev={handlePrev}
           objectLength={journeys.length}
           object={journeys}
+          seeImg={seeImg}
         />
       ))}
     </>

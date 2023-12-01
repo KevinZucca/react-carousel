@@ -7,6 +7,7 @@ export default function Carousel({
   pressKey,
   object,
   index,
+  seeImg,
 }) {
   return (
     <>
@@ -41,6 +42,7 @@ export default function Carousel({
             {object.map((el, j) => (
               <div
                 key={j}
+                onClick={() => seeImg(j)}
                 className={`w-7 h-7 rounded-full border ${
                   j === index ? "bg-white" : "bg-transparent"
                 }`}
