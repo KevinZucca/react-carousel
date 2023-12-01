@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "image": "https://th.bing.com/th/id/R.acdf9fdca5a17155f48d6d7f03ae3758?rik=mlFqn5fydgRJhA&pid=ImgRaw&r=0",
+        "location": "Parigi, Francia",
+        "date": "Maggio 2019",
+        "description": "Esplorazione della romantica città di Parigi con visite a Torre Eiffel e Louvre."
+    },
+    {
+        "id": 2,
+        "image": "https://th.bing.com/th/id/R.683bf171258eb2ca7732c836bb3b193b?rik=2DUXykUSA0AZdg&pid=ImgRaw&r=0",
+        "location": "Kyoto, Giappone",
+        "date": "Settembre 2020",
+        "description": "Immersi nella cultura giapponese con visite a templi antichi e giardini zen."
+    },
+    {
+        "id": 3,
+        "image": "https://lp-cms-production.imgix.net/2021-04/shutterstockRF_780290506.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850&q=20&dpr=5",
+        "location": "Marrakech, Marocco",
+        "date": "Gennaio 2021",
+        "description": "Esperienza nei mercati vivaci e nei colorati souk di Marrakech."
+    },
+    {
+        "id": 4,
+        "image": "https://www.roadaffair.com/wp-content/uploads/2017/10/machu-picchu-peru-shutterstock_364973210.jpg",
+        "location": "Cusco, Perù",
+        "date": "Agosto 2021",
+        "description": "Avventura nella terra degli Inca con visite a Machu Picchu e alle rovine di Cusco."
+    },
+    {
+        "id": 5,
+        "image": "https://wallpapercave.com/wp/wp2684726.jpg",
+        "location": "Sydney, Australia",
+        "date": "Aprile 2022",
+        "description": "Esplorazione delle iconiche attrazioni di Sydney, inclusa l'Opera House e la Sydney Harbour Bridge."
+    },
+    {
+        "id": 6,
+        "image": "https://wallpaperaccess.com/full/2648792.jpg",
+        "location": "Rio de Janeiro, Brasile",
+        "date": "Novembre 2022",
+        "description": "Esperienza del vibrante stile di vita di Rio de Janeiro con visite al Cristo Redentore e alle spiagge di Copacabana."
+    }
+]
