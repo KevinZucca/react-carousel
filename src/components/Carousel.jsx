@@ -43,7 +43,7 @@ export default function Carousel({
               <div
                 key={j}
                 onClick={() => seeImg(j)}
-                className={`w-7 h-7 rounded-full border ${
+                className={`w-7 h-7 rounded-full border hover:cursor-pointer ${
                   j === index ? "bg-white" : "bg-transparent"
                 }`}
               ></div>
