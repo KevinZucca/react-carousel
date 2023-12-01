@@ -1,9 +1,12 @@
+/* eslint-disable react/prop-types */
 export default function Carousel({
   data,
   className,
   handleNext,
   handlePrev,
   pressKey,
+  object,
+  index,
 }) {
   return (
     <>
@@ -30,6 +33,20 @@ export default function Carousel({
           >
             right
           </button>
+
+          <div
+            id="index-container"
+            className="absolute bottom-2 flex gap-3 justify-center items-center right-1/2 translate-x-1/2"
+          >
+            {object.map((el, j) => (
+              <div
+                key={j}
+                className={`w-7 h-7 rounded-full border ${
+                  j === index ? "bg-white" : "bg-transparent"
+                }`}
+              ></div>
+            ))}
+          </div>
         </div>
 
         <div className="card-body">

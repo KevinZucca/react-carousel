@@ -51,6 +51,8 @@ function App() {
           className={i === activeIndex ? "block" : "hidden"}
           handleNext={handleNext}
           handlePrev={handlePrev}
+          objectLength={journeys.length}
+          object={journeys}
         />
       ))}
     </>
