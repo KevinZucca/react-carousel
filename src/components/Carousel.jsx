@@ -12,7 +12,7 @@ export default function Carousel({
   return (
     <>
       <div
-        className={`card ${className} text-start w-1/2 border m-auto my-20 rounded-3xl flex flex-col justify-center items-center`}
+        className={`card ${className} text-start w-1/2 border m-auto my-20 rounded-xl flex flex-col justify-center items-center`}
       >
         <div className="card-header flex justify-between items-center relative w-full">
           <button
@@ -23,7 +23,7 @@ export default function Carousel({
             left
           </button>
           <img
-            className="card-img-top border h-[600px] w-full"
+            className="card-img-top border h-[600px] w-full rounded-t-lg"
             src={data.image}
             alt="Title"
           />
